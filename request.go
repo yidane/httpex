@@ -2,8 +2,8 @@ package httpex
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
-	"git.meizhu365.com/pub/qing/pkg/json"
 	"github.com/ajg/form"
 	"io"
 	"io/ioutil"

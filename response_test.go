@@ -11,4 +11,6 @@ func TestResponse_Status(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
+
+	t.Log(result.Html())
 }
